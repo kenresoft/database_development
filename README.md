@@ -40,3 +40,4 @@ ALTER TABLE `transaction_reports` ADD CONSTRAINT `transaction_reports_product_ID
 ALTER TABLE `transaction_reports` ADD CONSTRAINT `transaction_reports_payment_ID_payment_payment_ID` FOREIGN KEY (`payment_ID`) REFERENCES `payment`(`payment_ID`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 ```
+
